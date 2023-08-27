@@ -20,6 +20,6 @@ app.use('/verification', verificationRoutes)
 // app.use('/withdraw', withdrawalRoutes);
 // app.use('/safe', safeRoutes);
 
-// export default app;
-module.exports = app;
+export default app;
+// module.exports = app;
 
