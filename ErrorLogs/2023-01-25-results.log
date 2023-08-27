@@ -1,0 +1,113 @@
+2023-01-25 00:30:56 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 00:52:19 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 00:53:31 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 00:54:07 [Logs!] error: TypeError: _Property2.default.createIndex is not a function
+    at _callee4$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/propertyController.js:138:42)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\core-js\library\modules\_export.js:36:28)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at searchPropertyListing (C:\MyCodes\Nodejs\trace_spaces_api\server\controllers\propertyController.js:308:30)
+
+2023-01-25 00:56:26 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 00:58:00 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 01:00:34 [Logs!] error: MongoServerError: Error in specification { background: true, name: "", key: {} } :: caused by :: Index keys cannot be empty.
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 01:04:41 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 01:10:01 [Logs!] error: MongoServerError: text index required for $text query
+    at Connection.onMessage (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:447:20)
+    at MessageStream.<anonymous> (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\connection.ts:241:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:189:12)
+    at MessageStream._write (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongodb\src\cmap\message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+
+2023-01-25 01:11:39 [Logs!] error: CastError: Cast to string failed for value "{ index: 'default', text: { query: 'Rent', path: { wildcard: '*' } } }" (type Object) at path "$text.$search" for model "Property"
+    at model.Query.exec (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+

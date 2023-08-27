@@ -1,0 +1,12 @@
+2023-02-19 04:49:32 [Logs!] error: ValidationError: amount: Cast to Number failed for value "25,000" (type string) at path "amount"
+    at model.Document.invalidate (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:3125:32)
+    at model.$set (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:1465:12)
+    at model.$set (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:1148:16)
+    at model.Document (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:122:12)
+    at new model (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:5092:15)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:3197:22
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:3232:7
+    at Array.forEach (<anonymous>)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:3231:15
+

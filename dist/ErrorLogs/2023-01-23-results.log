@@ -1,0 +1,15 @@
+2023-01-23 23:18:12 [Logs!] error: CastError: Cast to Number failed for value "nice" (type string) at path "amount" for model "Property"
+    at model.Query.exec (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+2023-01-23 23:19:10 [Logs!] error: CastError: Cast to Number failed for value "shop" (type string) at path "amount" for model "Property"
+    at model.Query.exec (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+2023-01-23 23:19:14 [Logs!] error: CastError: Cast to Number failed for value "shop" (type string) at path "amount" for model "Property"
+    at model.Query.exec (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+

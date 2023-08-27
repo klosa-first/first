@@ -1,0 +1,93 @@
+2023-01-22 12:15:25 [Logs!] error: TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/authController.js:97:101)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+2023-01-22 12:17:03 [Logs!] error: TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/authController.js:99:101)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+2023-01-22 12:18:03 [Logs!] error: ValidationError: referal: Cast to ObjectId failed for value "" (type string) at path "referal" because of "BSONTypeError"
+    at model.Document.invalidate (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:3123:32)
+    at model.$set (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:1463:12)
+    at model.$set (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:1146:16)
+    at model.Document (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:122:12)
+    at new model (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:5092:15)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:3197:22
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:3232:7
+    at Array.forEach (<anonymous>)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\model.js:3231:15
+
+2023-01-22 23:47:02 [Logs!] error: ReferenceError: _id is not defined
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/propertyController.js:41:51)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\core-js\library\modules\_export.js:36:28)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at createPropertyListing (C:\MyCodes\Nodejs\trace_spaces_api\server\controllers\propertyController.js:132:29)
+
+2023-01-22 23:49:29 [Logs!] error: ReferenceError: _id is not defined
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/propertyController.js:41:51)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\core-js\library\modules\_export.js:36:28)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at createPropertyListing (C:\MyCodes\Nodejs\trace_spaces_api\server\controllers\propertyController.js:132:29)
+
+2023-01-22 23:49:29 [Logs!] error: ReferenceError: responses is not defined
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/propertyController.js:63:21)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\core-js\library\modules\_export.js:36:28)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at createPropertyListing (C:\MyCodes\Nodejs\trace_spaces_api\server\controllers\propertyController.js:132:29)
+
+2023-01-22 23:50:57 [Logs!] error: ReferenceError: _id is not defined
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/propertyController.js:42:51)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\core-js\library\modules\_export.js:36:28)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at createPropertyListing (C:\MyCodes\Nodejs\trace_spaces_api\server\controllers\propertyController.js:136:29)
+
+2023-01-22 23:53:18 [Logs!] error: ReferenceError: userPropertyObject is not defined
+    at _callee$ (C:/MyCodes/Nodejs/trace_spaces_api/server/controllers/propertyController.js:48:21)
+    at tryCatch (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+2023-01-22 23:54:29 [Logs!] error: ValidationError: password: Path `password` is required., email: Path `email` is required.
+    at model.Document.invalidate (C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:3123:32)
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\document.js:2911:17
+    at C:\MyCodes\Nodejs\trace_spaces_api\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+

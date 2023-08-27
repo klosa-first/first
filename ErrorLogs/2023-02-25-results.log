@@ -1,0 +1,138 @@
+2023-02-25 14:23:02 [Logs!] error: ReferenceError: socketSetter is not defined
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/app.js:66:1)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at loader (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+
+2023-02-25 14:24:18 [Logs!] error: ReferenceError: socketSetter is not defined
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/app.js:66:1)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at loader (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+
+2023-02-25 14:24:21 [Logs!] error: ReferenceError: socketSetter is not defined
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/app.js:66:1)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at loader (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:930:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1280:10)
+
+2023-02-25 14:25:25 [Logs!] error: ReferenceError: liveSocket is not defined
+    at Namespace.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/app.js:77:3)
+    at Namespace.emit (node:events:513:28)
+    at Namespace.emit (node:domain:489:12)
+    at Namespace.emitReserved (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/socket.io/dist/typed-events.js:56:22)
+    at Namespace._doConnect (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/socket.io/dist/namespace.js:269:14)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/socket.io/dist/namespace.js:231:22
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 14:26:11 [Logs!] error: ReferenceError: liveSocket is not defined
+    at Namespace.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/app.js:76:3)
+    at Namespace.emit (node:events:513:28)
+    at Namespace.emit (node:domain:489:12)
+    at Namespace.emitReserved (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/socket.io/dist/typed-events.js:56:22)
+    at Namespace._doConnect (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/socket.io/dist/namespace.js:269:14)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/socket.io/dist/namespace.js:231:22
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:18:43 [Logs!] error: TypeError: Cannot read properties of undefined (reading 'body')
+    at _callee3$ (/Users/macbook/Desktop/Nene/trace_spaces_api/server/controllers/messageController.js:16:19)
+    at tryCatch (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/regenerator-runtime/runtime.js:62:40)
+    at Generator.invoke [as _invoke] (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/regenerator-runtime/runtime.js:296:22)
+    at Generator.prototype.<computed> [as next] (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/regenerator-runtime/runtime.js:114:21)
+    at step (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-runtime/helpers/asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/core-js/library/modules/_export.js:36:28)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-runtime/helpers/asyncToGenerator.js:14:12
+    at chat (/Users/macbook/Desktop/Nene/trace_spaces_api/server/controllers/messageController.js:189:21)
+
+2023-02-25 15:31:13 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:19 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:19 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:37 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:37 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:37 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:51 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:51 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:51 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:31:52 [Logs!] error: ValidationError: sender: Path `sender` is required.
+    at model.Document.invalidate (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:3125:32)
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/document.js:2913:17
+    at /Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/mongoose/lib/schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2023-02-25 15:33:45 [Logs!] error: Error: listen EADDRINUSE: address already in use :::5678
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/macbook/Desktop/Nene/trace_spaces_api/app.js:65:20)
+    at Module._compile (node:internal/modules/cjs/loader:1226:14)
+    at loader (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.<computed> [as .js] (/Users/macbook/Desktop/Nene/trace_spaces_api/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (node:internal/modules/cjs/loader:1089:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:930:12)
+
