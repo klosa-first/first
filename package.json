@@ -5,10 +5,11 @@
   "author": "nene_zoe",
   "license": "MIT",
   "engines": {
+
     "node": ">=14.20.1"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "dev": "nodemon app.js --exec babel-node",
     "test": "cross-env NODE_ENV=test nyc --reporter=html mocha --require babel-core/register server/test/specs/User/User.js --exit && nyc report --timeout 10000",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
