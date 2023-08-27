@@ -5,8 +5,7 @@
   "author": "nene_zoe",
   "license": "MIT",
   "engines": {
-
-    "node": ">=14.20.1"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node app.js",
