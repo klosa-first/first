@@ -52,6 +52,19 @@ var _messageController2 = _interopRequireDefault(_messageController);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// const express = require("express");
+// const cors = require("cors");
+// const mongoose = require("mongoose");
+// const logger = require("morgan");
+// const bodyParser = require("body-parser");
+// const helmet =require("helmet");
+// const { notFound, errorHandler } = require("./server/middlewares/errorhandlers");
+// const routes = require("./server/routes");
+// const config = require("./server/config/index");
+// const traceLogger = require("./server/logger/tracelogger");
+// const messageController = require("./server/controllers/messageController");
+
+
 var chat = _messageController2.default.chat;
 
 var app = (0, _express2.default)();
@@ -81,6 +94,7 @@ app.get('/', function (req, res) {
   res.json({ massage: 'Welcome to Klosa Api' });
 });
 
+// "start": "node  ./dist/index.js",
 // Routes
 app.use('/api', _routes2.default);
 

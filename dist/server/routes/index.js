@@ -38,3 +38,4 @@ app.use('/verification', _verification2.default);
 // app.use('/safe', safeRoutes);
 
 exports.default = app;
+// module.exports = app;
